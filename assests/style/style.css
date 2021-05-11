@@ -204,8 +204,10 @@ h6 {
 .about__image {
   width: 33.33333%;
   padding: 0 20px;
+  user-select: none;
 }
 .about__inner {
+  user-select: none;
   position: relative;
   background: linear-gradient(120deg, #cd3fa3, #4f22d4);
 }
@@ -222,11 +224,13 @@ h6 {
 .about__img {
   background: linear-gradient(120deg, #cd3fa3, #4f22d4);
   transition: transform .2s linear;
+  user-select: none;
 }
 .about__img img {
   display: block;
   max-width: 100%;
   height: auto;
+  user-select: none;
   transition: opacity .1s linear;
 }
 
@@ -247,6 +251,7 @@ h6 {
   z-index: 2;
   opacity: 0;
   transition: opacity .2s linear;
+  user-select: none;
 }
 
 
