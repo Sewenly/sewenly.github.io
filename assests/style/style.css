@@ -298,6 +298,9 @@ h6 {
   .nav {
     font-size: 10px;
   }
+  .nav__link {
+    padding: 12px 10px;
+  }
  }
 
 
